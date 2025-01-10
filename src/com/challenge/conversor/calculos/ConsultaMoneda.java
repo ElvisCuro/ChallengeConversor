@@ -1,3 +1,6 @@
+package com.challenge.conversor.calculos;
+
+import com.challenge.conversor.modelos.Moneda;
 import com.google.gson.Gson;
 
 import java.io.IOException;

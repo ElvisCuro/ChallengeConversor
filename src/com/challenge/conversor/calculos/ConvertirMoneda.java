@@ -1,3 +1,7 @@
+package com.challenge.conversor.calculos;
+
+import com.challenge.conversor.modelos.Moneda;
+
 import java.util.Scanner;
 
 public class ConvertirMoneda {

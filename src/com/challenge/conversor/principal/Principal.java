@@ -1,9 +1,14 @@
+package com.challenge.conversor.principal;
+
+import com.challenge.conversor.calculos.ConsultaMoneda;
+import com.challenge.conversor.calculos.ConvertirMoneda;
+
 import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-//        ConsultaMoneda consulta = new ConsultaMoneda();
-//        Moneda moneda = consulta.buscaMoneda("USD","PEN");
+//        com.challenge.conversor.calculos.ConsultaMoneda consulta = new com.challenge.conversor.calculos.ConsultaMoneda();
+//        com.challenge.conversor.modelos.Moneda moneda = consulta.buscaMoneda("USD","PEN");
 //        System.out.println(moneda);
 //        System.out.println();}
         Scanner lectura = new Scanner(System.in);
@@ -13,7 +18,7 @@ public class Principal {
 
         do {
             System.out.println("*************************************************");
-            System.out.println("Sea bienvenido/a al Conversor de Moneda =]");
+            System.out.println("Sea bienvenido/a al Conversor de com.challenge.conversor.modelos.Moneda =]");
             System.out.println("*************************************************");
             System.out.println("1) Dólar => Peso argentino");
             System.out.println("2) Peso argentino => Dólar");
